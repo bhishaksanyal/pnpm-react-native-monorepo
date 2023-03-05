@@ -11,6 +11,7 @@ import {
   Linking,
 } from 'react-native';
 import Svg, { Path } from 'react-native-svg';
+import { HourlyForecast } from '@workspace/shared-ui-layout';
 
 export const App = () => {
   const [whatsNextYCoord, setWhatsNextYCoord] = useState<number>(0);
@@ -32,6 +33,7 @@ export const App = () => {
             <Text style={[styles.textXL, styles.appTitleText]} testID="heading">
               Welcome Weather 👋
             </Text>
+            <HourlyForecast />
           </View>
           <View style={styles.section}>
             <View style={styles.hero}>
