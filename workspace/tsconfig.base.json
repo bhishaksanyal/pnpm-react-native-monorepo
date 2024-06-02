@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@workspace/shared-icons": ["libs/shared-icons/src/index.ts"],
       "@workspace/shared-ui-layout": ["libs/shared-ui-layout/src/index.ts"]
     }
   },

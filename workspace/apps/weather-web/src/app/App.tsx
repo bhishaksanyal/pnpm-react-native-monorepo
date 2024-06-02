@@ -3,6 +3,7 @@ import NxWelcome from './nx-welcome';
 import { Route, Routes, Link } from 'react-router-dom';
 
 import { HourlyForecast } from '@workspace/shared-ui-layout';
+import { SharedIcons } from '@workspace/shared-icons';
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
       <hr />
       <br />
       <HourlyForecast />
+      <SharedIcons />
       <div role="navigation">
         <ul>
           <li>
