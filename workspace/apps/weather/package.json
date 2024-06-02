@@ -10,6 +10,12 @@
     "react-native-config": "*",
     "react-native-svg": "*",
     "@react-native-async-storage/async-storage": "*",
-    "metro-config": "*"
+    "metro-config": "*",
+    "@storybook/react-native": "*",
+    "@testing-library/react": "*",
+    "@storybook/addon-ondevice-actions": "*",
+    "@storybook/addon-ondevice-backgrounds": "*",
+    "@storybook/addon-ondevice-controls": "*",
+    "@storybook/addon-ondevice-notes": "*"
   }
 }
