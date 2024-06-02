@@ -497,6 +497,7 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-ld_classic",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Weather;
@@ -523,6 +524,7 @@
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
+					"-ld_classic",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Weather;
